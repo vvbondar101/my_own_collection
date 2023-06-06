@@ -1,0 +1,6 @@
+---
+# tasks file for my_own_role
+- name: "Test my own module"
+  my_own_namespace.yandex_cloud.elk.my_own_module:
+    path: "/home/admin77/"
+    content: "Hello friends" 
